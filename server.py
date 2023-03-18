@@ -118,5 +118,5 @@ if st.button('Predict Production'):
             my_bar.progress(percent_complete+1, text="Sucessfully Completed")
 
 
-st.subheader('We will Recommend you to Produce')
+st.subheader('We will Recommend you to Cultivate')
 st.subheader( predict(selected_state, selected_district, selected_season, area))
