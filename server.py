@@ -68,7 +68,8 @@ with open('Crops_Model/model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 with open('Crops_Model/original_data.pkl', 'rb') as f:
-    data = pickle.load(f)
+   # data = pickle.load(f)
+    data = pd.read_pickle(f)
 
 
 def predict(State, District, Season, Area):
